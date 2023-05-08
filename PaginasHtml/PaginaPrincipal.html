@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../EstilosCSS/EstiloCss.css">
+        <title>FORMLEGACY.COM</title>
+        <script>
+            var totalAPagar=0
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="div1">
+                <div class="logo"><img id="fotologo" src="../Imagenes/Logo1.png"></img></div>
+                <h1 class="titulo">FORM LEGACY</h1>
+                <h3 class="subtitulo">"Descubre la moda que habla de ti: Nuestra ropa cuenta tu historia"</h3>
+                <div id="prendas">
+                    
+                    <!--<div class="desplegable">
+                        <a href="#" class="desplegable-toggle">Prendas</a>
+                        <ul class="desplegable-menu">
+                          <li><a href="#">Camisetas</a></li>
+                          <li><a href="#">Accesorios</a></li>
+                        </ul>
+                      </div>-->
+                    <details>
+                        <summary id="botonprendas">Prendas</summary>
+                        <ul class="desplegable">
+                            <li><a  href="PaginaCamisetas.html">Camisetas</a></li>
+                            <br>
+                            <li><a  href="PaginaAccesorios.html">Accesorios</a></li>
+                        </ul>
+                    </details>
+                </div>
+                
+                <div class="promociones"><a href="#imagenessection">Promociones</a></div>
+                <div class="soporte"><a  href="PaginaSoporte.html">Soporte</a></div>
+                <h1 id="total">Su total es: 0.00</h1>
+            </div>
+            
+        </header>
+    
+
+
+<main>
+        <center>
+            <section >
+                <img src="../Imagenes/Camiseta1.png"></img>
+                <img src="../Imagenes/CamisetaNiñoNegraEspalda.png"><img/>
+                <img src="../Imagenes/Camiseta1Mujer.png"><img/>
+                
+            </section>
+            
+            <div style="border: transparent;" id="imagenessection"></div>
+        </center>
+        
+
+        
+            <div id="tituloPromociones">
+                <h1>Promociones</h1>
+            </div>
+               
+                
+            <div class="imagenesCamisetas">
+                <div class="foto">
+                    <img style="border: transparent;border-radius: 20px 20px 20px;;height: 300px; width: 400px;" src="../Imagenes/CamisetaBebeNegra.png">
+                </div>
+                <b class="titulilloCamisetas">Conjunto Bebé - 3500 €</b>
+                <p class="descripcionCamisetas">Una camiseta es una prenda de vestir informal y cómoda que se ajusta al torso y cubre los hombros y los brazos hasta el nivel de los codos o las muñecas, 
+                    dependiendo del estilo. Por lo general, está confeccionada en algodón, pero también puede estar hecha de otros materiales como poliéster, lino, 
+                    seda o mezclas de tejidos.</p>
+                    <button class="boton" data-precio="3500.00"></button>
+            </div>
+
+         
+
+            <div class="imagenesCamisetas">
+                <div class="foto">
+                    <img style="border: transparent;border-radius: 20px 20px 20px;;height: 300px; width: 400px;" src="../Imagenes/Camiseta1Mujer.png">
+                </div>
+                <b class="titulilloCamisetas">Camiseta Mujer - 150 €</b>
+                <p class="descripcionCamisetas">Una camiseta es una prenda de vestir informal y cómoda que se ajusta al torso y cubre los hombros y los brazos hasta el nivel de los codos o las muñecas, 
+                    dependiendo del estilo. Por lo general, está confeccionada en algodón, pero también puede estar hecha de otros materiales como poliéster, lino, 
+                    seda o mezclas de tejidos.</p>
+                    <button class="boton" data-precio="150.00"></button>
+            </div>
+            
+            
+            <div class="imagenesCamisetas">
+                <div class="foto">
+                    <img style="border: transparent;border-radius: 20px 20px 20px;;height: 300px; width: 400px;" src="../Imagenes/CamisetaHombreNegra.png">
+                </div>
+                <b class="titulilloCamisetas">Camiseta Hombre - 250 €</b>
+                <p class="descripcionCamisetas">Una camiseta es una prenda de vestir informal y cómoda 
+                    que se ajusta al torso y cubre los hombros y 
+                    los brazos hasta el nivel de los codos o las muñecas, 
+                    dependiendo del estilo. Por lo general, está confeccionada en algodón, 
+                    pero también puede estar hecha de otros materiales como poliéster, lino, 
+                    seda o mezclas de tejidos.</p>
+                    <button class="boton" data-precio="250.00"></button>
+            </div>
+                
+
+</main>
+
+                <footer >
+                    <div>
+                        <center>
+                            <a id="linksoporte" href="PaginaSoporte.html">Soporte </a>&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <b><i>Contacto:</i> 688587835</b>&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <b><i>Email:</i> formlegacy@company.es</b>
+                            <p>© Form Legacy</p>
+                        </center>
+                    </div>
+                </footer>
+                <script src="../JavaScript/VerFoto.js"></script>
+                <script src="../JavaScript/Incremento.js"></script>
+                <script src="../JavaScript/desplegable.js"></script>
+    </body>
+</html>
